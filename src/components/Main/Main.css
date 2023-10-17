@@ -2,7 +2,7 @@
 
 :root{
     --color-primary: #6C9BCF;
-    --color-danger: #FF0060;
+    --color-danger: #f5ba23;
     --color-red: #b10000;
     --color-success: #1B9C85;
     --color-warning: #F7D060;
@@ -11,7 +11,7 @@
     --color-dark: #edeffd;
     --color-light: rgba(0, 0, 0, 0.4);
     --color-dark-variant: #a3bdcc;
-    --color-background: #35373c;
+    --color-background: #313339;
     --card-border-radius: 2rem;
     --border-radius-1: 0.4rem;
     --border-radius-2: 1.2rem;
@@ -19,8 +19,9 @@
     --card-padding: 1.8rem;
     --padding-1: 1.2rem;
 
-    --box-shadow: 0.1rem 0.1rem 0.1rem var(--color-light);
-    --box-shadow-hover: 0.1rem 0.1rem 0.1rem var(--color-red);
+    --box-shadow: 0.015rem 0.1rem 0.1rem 0.01rem var(--color-danger);
+    --box-shadow-hover: 0.005rem 0.01rem 0.5rem 0.01rem var(--color-danger);
+    
 }
 
 
@@ -67,7 +68,7 @@ h1{
 
 h2{
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 h3{
